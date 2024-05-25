@@ -23,6 +23,7 @@ call plug#end()
 let g:airline_theme='light'
 
 "Activates use powerline symbols (supported by the hack font family)
+"default is 1 but I use 3. the higher the number the thicker the font and line
 let g:airline_powerline_fonts = 3
 
 " Vimscript initialization file
@@ -38,4 +39,4 @@ set foldmethod=indent
 
 set foldlevel=99
 
-
+ 
