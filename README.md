@@ -40,7 +40,9 @@ set shiftwidth=4 tabstop=4 softtabstop=4 expandtab autoindent smartindent
 set fileformat=unix
 
 "Sets column and color for python files
+
 set colorcolumn=80
+
 hi ColorColumn guifg=grey
 
 let g:ale_linters = {'python': ['flake8']}
