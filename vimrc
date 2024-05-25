@@ -11,8 +11,7 @@ set path=.,**
 call plug#begin()
 
 	Plug 'bluz71/vim-nightfly-colors', { 'as': 'nightfly' }
-	Plug 'vim-airline/vim-airline'
-	Plug 'lokaltog/powerline-fontpatcher' 	
+	Plug 'vim-airline/vim-airline'	
 	Plug 'vim-airline/vim-airline-themes'
         Plug 'tpope/vim-fugitive'
 	Plug 'dense-analysis/ale'
@@ -39,5 +38,4 @@ set foldmethod=indent
 
 set foldlevel=99
 
-"Adds clipboard function, copy line in vim with yy and paste systemwide
-set clipboard=unnamed 
+ 
