@@ -35,7 +35,7 @@ Steps below:(within vim)
 -create file called python.vim
 -within python.vim add python specific settings below
 
-set shiftwidth=4 tabstop=4 softtabstop=4 ex
+set shiftwidth=4 tabstop=4 softtabstop=4 expandtab autoindent smartindent
 
 set fileformat=unix
 
