@@ -39,4 +39,5 @@ set foldmethod=indent
 
 set foldlevel=99
 
- 
+"Adds clipboard function, copy line in vim with yy and paste systemwide
+set clipboard=unnamed 
