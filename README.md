@@ -33,7 +33,7 @@ Steps below:(within vim)
 -create directory called "after"
 -create subdirectory called "ftplugin"
 -create file called python.vim
--within python.vim add python specific settings below
+-within python.vim add python specific settings below:
 
 set shiftwidth=4 tabstop=4 softtabstop=4 expandtab autoindent smartindent
 
@@ -47,9 +47,11 @@ hi ColorColumn guifg=grey
 
 let g:ale_linters = {'python': ['flake8']}
 
-Do not forget to !wq to save and exit
+-The above line is the end of the config
 
-NAVIGATE to RTP from vim = :e $RTP
+-Do not forget to !wq to save and exit
+
+-NAVIGATE to RTP from vim = :e $RTP
 
 
 -----------------------------------------------------------------------
