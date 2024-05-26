@@ -178,13 +178,11 @@ Copy to clipboard: (this allows you to copy paste outside of vim)
 Afterwards you should have clipboard functionality. You can check with echo has('clipboard')
 
 Visual copy paste:
-\shift v for visual line
-\only v in command normal mode
-\select line/block
-\shift  double quotes,plus sign, y / (shift " + y)
-\paste 
-
- 
+<p>-shift v for visual line<br>
+-only v in command normal mode
+-select line/block
+-shift  double quotes,plus sign, y / (shift " + y)
+-paste</p> 
 
 
 Alphabatize-
